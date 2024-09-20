@@ -5,3 +5,47 @@
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+body {
+  background-color: #e3d9c5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 3rem 0 3rem 0;
+}
+img {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+.recipe-container {
+  background-color: white;
+
+  width: 50%;
+  border-radius: 1rem;
+
+  padding: 2rem;
+}
+.title {
+  font-size: 3rem;
+}
+.section {
+  margin: 2rem 0 2rem 0;
+}
+.subtitle {
+  font-size: 2rem;
+  color: hsl(14, 45%, 36%);
+}
+li {
+  padding-bottom: 1rem;
+}
+.section.prep {
+  padding: 2rem 0 0.5rem 2rem;
+  background-color: hsl(332, 51%, 32%, 0.1);
+  border-radius: 1rem;
+}
+.subtitle.prep {
+  font-size: 1.5rem;
+  color: hsl(332, 51%, 32%);
+}
