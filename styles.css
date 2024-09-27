@@ -39,6 +39,18 @@ img {
 
   padding: 2rem;
 }
+@media screen and (max-width: 375px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .recipe-container {
+    width: 100%;
+  }
+  .main-recipe {
+    padding: 1rem;
+  }
+}
 .title {
   font-size: 3rem;
   margin-bottom: 1rem;
